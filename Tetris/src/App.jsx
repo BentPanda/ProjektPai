@@ -1,13 +1,17 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-function App() {
+import AboutAuthor from "./components/AboutAuthor/AboutAuthor";
+import Home from "./components/Home/Home";
+import ComingSoon from "./components/Game/ComingSoon";
+
+export default function App() {
   return (
     <>
-      <div className="App">
-        <h1>Tetris</h1>
-        <h2>By Matteo</h2>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/AboutAuthor" element={<AboutAuthor />} />
+        <Route path="/Game" element={<ComingSoon />} />
+      </Routes>
     </>
   );
 }
-
-export default App;
