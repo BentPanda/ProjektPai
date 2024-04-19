@@ -6,18 +6,20 @@ export default function NavBar() {
   return (
     <nav>
       <li>
-        <NavLink to="/">
-          <a>Home</a>
+        <NavLink to="/Game">
+          <button className="GameButton">
+            <a>Start the game!</a>
+          </button>
         </NavLink>
       </li>
       <li>
         <NavLink to="/AboutAuthor">
-          <a>AboutAuthor</a>
+          <a className="normalLink">About Author</a>
         </NavLink>
       </li>
       <li>
-        <NavLink to="/Game">
-          <a>ComingSoon</a>
+        <NavLink to="/">
+          <a>Home</a>
         </NavLink>
       </li>
     </nav>

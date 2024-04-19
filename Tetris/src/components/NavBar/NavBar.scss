@@ -18,7 +18,25 @@ a {
   font-size: 1.2rem;
 }
 
-a:hover {
+a.normalLink:hover {
   color: red;
   font-size: 1.6rem;
+}
+
+.GameButton {
+  background-color: rgb(255, 206, 255);
+  border-radius: 10px;
+  width: 18rem;
+  height: 6rem;
+  font-weight: 700;
+  margin-bottom: 18rem;
+}
+
+.GameButton:hover {
+  background-color: rgb(81, 118, 81);
+  border-radius: 10px;
+  width: 19rem;
+  height: 7rem;
+  margin-bottom: 17.5rem;
+  font-weight: 900;
 }
