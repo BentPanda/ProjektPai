@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import AboutAuthor from "./components/AboutAuthor/AboutAuthor";
 import Home from "./components/Home/Home";
-//import ComingSoon from "./components/Game/ComingSoon";
 import GameBoard from "./components/Game/GameBoard";
 
 export default function App() {

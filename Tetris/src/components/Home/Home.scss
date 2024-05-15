@@ -3,3 +3,21 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
+
+.music-button {
+  background-color: rgb(213, 32, 213);
+  border: none;
+  border-radius: 20px;
+  width: 10em;
+  height: 3em;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.music-button:hover {
+  background-color: rgb(142, 19, 142);
+  border: none;
+  border-radius: 20px;
+  width: 11em;
+  height: 4em;
+}

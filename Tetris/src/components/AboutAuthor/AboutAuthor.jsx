@@ -6,7 +6,7 @@ export default function AboutAuthor() {
   return (
     <article>
       <header>
-        <h3>Mathew Delrio</h3>
+        <h3>Mathew Delrio is a really cool guy :D</h3>
         <Link to={"/"}>Back to Home</Link>
       </header>
       <section>

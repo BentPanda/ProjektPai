@@ -1,0 +1,19 @@
+.pause-overlay {
+  position: absolute;
+  top: 0;
+  left: -130px;
+  width: 150%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pause-dialog {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
